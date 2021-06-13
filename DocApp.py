@@ -81,7 +81,6 @@ def app():
         fig.data[0].marker.line.width = 3
         fig.data[0].marker.line.color = "black" 
         st.plotly_chart(fig)
-        st.balloons()
   
 
 if __name__ == "__main__":
